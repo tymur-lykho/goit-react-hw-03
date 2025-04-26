@@ -1,7 +1,7 @@
 import "./App.css";
 import "modern-normalize";
 import ContactForm from "./components/ContactForm/ContactForm";
-import SearchBox from "./components/SearchBox/searchBox";
+import SearchBox from "./components/SearchBox/SearchBox";
 import ContactList from "./components/ContactList/ContactList";
 import { nanoid } from "nanoid";
 import { useEffect, useState } from "react";
