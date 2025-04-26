@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [contactList, setContactList] = useState(() => {
-    return JSON.parse(localStorage.getItem("saved-contacts"));
+    return JSON.parse(localStorage.getItem("saved-contacts")) ?? [];
   });
 
   const [inputValue, setInputValue] = useState("");
